@@ -3,96 +3,218 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SUEROTERAPIA</title>   
+    <title>Suero Terapia y Bienestar</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <header>
-        <img src="img/logo3-removebg-preview.png" alt="logo" width="300px">
-        <link rel="stylesheet" href="css/style.css">
         
     </header>
 
-    <nav>
+   <nav>
         <ul>
-            
-            <li><a href="index.html">INICIO</a></li>
-            <li><a href="empresa.html">EMPRESA</a></li>
-            <li><a href="servicios.html">SERVICIOS</a></li>
-            <li><a href="agendarunacita.html">AGENDAR UNA CITA</a></li>
-            <li><a href="contacto.html">CONTACTO</a></li>
-
+            <li><a href="#inicio">Página De Inicio</a></li>
+            <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#testimonios">Testimonios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
         </ul>
-        
     </nav>
 
-    
+    <main>
 
-      
-
-         <main>
-                    <!-- aqui esta el banner -->
-        <section class="banner">
-            <img src="img/foto para baner.jpeg" alt="baner"width="1400px">
+        <section class="hero" id="inicio">
+                <div class="hero-container">
+                <div class="hero-card">
+                <h1>Sueros Intravenosos:<br> Hidratación y<br> Bienestar al Instante</h1>
+                <div class="cyan-line"></div>
+                <p>Atención de enfermería segura,<br> personalizada y con bioseguridad.</p>
+                </div>
+                </div>
         </section>
 
-        <section>
+
+        <section class="sobre-nosotros" id ="sobre-nosotros">
+                <div class="container-split">
+                     <div class="split-image">
+                     <img src="img/Screenshot 2026-03-27 161504.png" alt="Procedimiento de enfermería">
+                </div>
+
+                 <div class="split-text">
+                     <h2>Sobre Sueros<br> Intravenosos</h2>
+                <div class="cyan-line-left"></div>
+             <p>
+                En Suero Terapia y Bienestar brindamos servicios de enfermería especializados en hidratación y bienestar mediante la aplicación segura de sueros intravenosos. Nuestro equipo trabaja con protocolos estrictos de bioseguridad y enfoque humano para acompañarte durante todo el proceso. Realizamos colocación de vías y catéteres, monitoreo de signos vitales y seguimiento básico para asegurar una atención profesional y confiable. Nos enfocamos en tu comodidad, la correcta técnica de canalización y la supervisión constante, ofreciendo una experiencia de cuidado personalizada orientada a tu recuperación y equilibrio.
+             </p>
+              </div>
+            </div>
+         </section>
+
+         <!-- aca comienza la seccion de servicios -->
+
+        <section class="servicios-seccion" id ="servicios">
+    <div class="container">
+        <h2>SERVICIOS</h2>
+        <div class="servicios-grid">
             
-            <h2>NUESTROS SERVICIOS</h2>
-            <P>nuestros servicio de sueroterapia se basa en brindarte lo mejor </P>
+            <div class="servicio-card">
+                <div class="servicio-img">
+                    <img src="img/aplicacion.jpg" alt="Aplicación de sueros">
+                </div>
+                <div class="servicio-info">
+                    <h3>Aplicación de sueros intravenosos</h3>
+                    <p>Hidratación intravenosa con técnica segura, vigilancia durante la sesión y enfoque en bienestar.</p>
+                </div>
+            </div>
 
-        </section>
+            <div class="servicio-card">
+                <div class="servicio-img">
+                    <img src="img/vias.jpg" alt="Colocación de vías">
+                </div>
+                <div class="servicio-info">
+                    <h3>Colocación de vías y catéteres</h3>
+                    <p>Canalización y colocación de catéteres con procedimientos estériles y cuidado para mayor confort.</p>
+                </div>
+            </div>
 
-        <form id="miFormulario">
-    <input type="text" id="nombre" placeholder="Nombre completo" required>
-    <input type="tel" id="telefono" placeholder="Teléfono" required>
-    <button type="submit">Enviar</button>
-</form>
+            <div class="servicio-card">
+                <div class="servicio-img">
+                    <img src="img/monitoreo.jpg" alt="Monitoreo">
+                </div>
+                <div class="servicio-info">
+                    <h3>Monitoreo de signos vitales</h3>
+                    <p>Control de presión, pulso y saturación para una atención más segura antes, durante y después.</p>
+                </div>
+            </div>
 
-<table id="tablaUsuarios">
-    <thead>
-        <tr>
-            <th>Nombre</th>
-            <th>Teléfono</th>
-        </tr>
-    </thead>
-    <tbody>
-        </tbody>
-</table>
+        </div>
+    </div>
+</section>
 
 
-       
-        <H2>PRESENTACION</H2>
-        <p><iframe  width="560" height="315" src="https://www.youtube.com/embed/FTeHvq9Y3pk?si=Kl3Mt4vyhvL14p1U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></iframe></p>
+                    <!-- vamos a pasar a la seccion de testimonios -->
+       <section class="testimonios-seccion" id ="testimonios">
+    <div class="container">
+        <h2>TESTIMONIOS</h2>
         
-        
-        <section>
+        <div class="testimonio-slider">
+            
+            <div class="testimonio-card active"> <div class="testimonio-img">
+                    <img src="img/hernan.jpeg" alt="Hernán">
+                </div>
+                <div class="testimonio-content">
+                    <span class="testimonio-tag">PACIENTE QUE VALORÓ LA SEGURIDAD Y EL CONTROL CLÍNICO</span>
+                    <h3>Hernán Gonzalez</h3>
+                    <p>"Excelente servicio de enfermería. Monitorearon mis signos vitales y mantuvieron protocolos de bioseguridad. Esta es mi cuarta sueroterapia y me he sentido con más vitalidad para continuar con mis ejercicios a diario, muy recomendado."</p>
+                    <div class="stars">★★★★★</div>
+                </div>
+            </div>
 
-            <section id="mapa"> 
+            <div class="testimonio-card">
+                <div class="testimonio-img">
+                    <img src="img/nicoll.jpeg" alt="Nicoll Gonzalez">
+                </div>
+                <div class="testimonio-content">
+                    <span class="testimonio-tag">RECUPERACIÓN RÁPIDA</span>
+                    <h3>Nicoll Gonzalez</h3>
+                    <p>"Buscaba hidratación tras una gripe fuerte. La atención a domicilio fue increíblemente cómoda. La señorita Angelly muy profesional y el efecto del suero fue inmediato. ¡Me sentí renovada!"</p>
+                    <div class="stars">★★★★★</div>
+                </div>
+            </div>
+
+            <div class="testimonio-card">
+                <div class="testimonio-img">
+                    <img src="img/WhatsApp Image 2026-03-27 at 4.51.59 PM.jpeg" alt="Estefania Morales">
+                </div>
+                <div class="testimonio-content">
+                    <span class="testimonio-tag">BIENESTAR GENERAL</span>
+                    <h3>Estefania Morales</h3>
+                    <p>"Decidí probar la sueroterapia para mejorar mi energía. El proceso fue indoloro y muy relajante. He notado una gran diferencia en mi concentración y estado de ánimo. Sin duda, volveré."</p>
+                    <div class="stars">★★★★★</div>
+                </div>
+            </div>
+
+            <button class="prev-btn" onclick="cambiarTestimonio(-1)">&#10094;</button>
+            <button class="next-btn" onclick="cambiarTestimonio(1)">&#10095;</button>
+            
+        </div>
         
-                <h2>COMO LLEGAR</h2>
-                <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.995906194462!2d-75.54845592595565!3d6.264267326123499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44289410abb8e1%3A0x9e8aebc3b1bac33e!2sCra.%2033%20%23%2069-37%2C%20Medell%C3%ADn%2C%20Manrique%2C%20Medell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses-419!2sco!4v1754005517214!5m2!1ses-419!2sco" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe></p>
+        <div class="slider-dots">
+            <span class="dot active" onclick="irATestimonio(0)"></span>
+            <span class="dot" onclick="irATestimonio(1)"></span>
+            <span class="dot" onclick="irATestimonio(2)"></span>
+        </div>
+        
+    </div>
+
+    <section class="contacto-seccion" id="contacto">
+    <div class="container-contacto">
+        <h2>CONTACTO</h2>
+        <div class="contacto-grid">
+            
+            <div class="contacto-info">
+                <div class="info-item">
+                    <span class="icon">📍</span>
+                    <div>
+                        <h4>Ciudad</h4>
+                        <p>Medellín, Antioquia, Colombia</p>
+                    </div>
+                </div>
                 
+                <div class="info-item">
+                    <span class="icon">⏰</span>
+                    <div>
+                        <h4>Horario de Atención</h4>
+                        <p>Lunes a Viernes: 8:00 am - 5:00 pm</p>
+                    </div>
+                </div>
 
-            </section>
+                <div class="info-item">
+                    <span class="icon">📞</span>
+                    <div>
+                        <h4>Celular y WhatsApp</h4>
+                        <p>+57 301 419 3982</p>
+                    </div>
+                </div>
 
-           
+                <div class="info-item">
+                    <span class="icon">✉️</span>
+                    <div>
+                        <h4>Correo Electrónico</h4>
+                        <p>isazaangelly7@gmail.com</p>
+                    </div>
+                </div>
+            </div>
 
-            <div class="whatsapp-container">
-    <h1>¿Listo para una sesión de sueroterapia?</h1>
-    <!-- WhatsApp button -->
-    <a href="https://wa.me/+573014193982?text=gracias por comunicarte con Angelly Isaza,en breve te atenderé" class="whatsapp-button" target="_blank">
-        <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.55.42 3.14 1.25 4.47l-1.6 4.92 5.08-1.55c1.29.68 2.76 1.05 4.29 1.05 5.46 0 9.91-4.45 9.91-9.91s-4.45-9.91-9.91-9.91zm0 18.06c-1.42 0-2.88-.37-4.14-1.01l-.3-.18-3.15.95.96-3.03-.2-.31c-.74-1.22-1.14-2.61-1.14-4.06 0-4.56 3.7-8.26 8.26-8.26s8.26 3.7 8.26 8.26-3.7 8.26-8.26 8.26zm4.1-5.19c-.22-.11-.97-.48-1.12-.53-.16-.06-.27-.08-.39.08-.12.16-.45.53-.55.64-.1.1-.21.12-.39.06-.18-.06-.75-.27-1.44-.89-.53-.47-.89-1.06-1.1-.11-.22-.11-.24-.22-.04-.44.18-.21.36-.53.53-.74.14-.14.16-.27.08-.41-.06-.12-.22-.29-.3-.41-.09-.11-.18-.08-.27-.08h-.4c-.11 0-.29.04-.45.23-.16.18-.61.6-.61 1.45s.62 1.68.71 1.8c.09.12 1.21 1.83 2.92 2.59 1.4.63 2.3.92 2.65 1.07.56.23 1.07.2 1.48.12.44-.08 1.34-.55 1.54-1.09.2-.55.2-1.01.14-1.09-.06-.08-.22-.11-.47-.24z"/>
-        </svg>
-        Contáctame por WhatsApp
-    </a>
-</div>
-        
-            <footer>
-                <h2>derechos reservados </h2>
-            </footer>
+            <div class="contacto-form-box">
+                <p>Déjanos tus datos y te contactaremos a la brevedad para agendar tu sesión.</p>
+                <form id="form-contacto">
+                    <div class="input-group">
+                        <label for="nombre">Nombre Completo</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Ej: Juan Pérez" required>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="whatsapp">Número de WhatsApp</label>
+                        <input type="tel" id="whatsapp" name="whatsapp" placeholder="Ej: 3001234567" required>
+                    </div>
 
-    </main>
-    
+                    <div class="input-group">
+                        <label for="mensaje">¿En qué servicio estás interesado? (Opcional)</label>
+                        <textarea id="mensaje" name="mensaje" rows="3" placeholder="Cuéntanos brevemente..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-enviar">Enviar Información</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <button id="btnVolverArriba" title="Ir al inicio">↑</button>
+    <script src="app.js"></script>
 </body>
 </html>
