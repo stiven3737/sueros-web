@@ -79,3 +79,4 @@ btnSubir.addEventListener("click", function() {
         behavior: "smooth" // Desplazamiento suave
     });
 });
+
