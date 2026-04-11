@@ -603,3 +603,30 @@ html {
     scroll-behavior: smooth;
 }
 
+.btn-whatsapp {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #25d366;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    z-index: 1000;
+    transition: 0.3s;
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+/* ESTO ES LO QUE HACE QUE EL ICONO SEA BLANCO Y GRANDE */
+.btn-whatsapp i {
+    color: white; /* <-- Color blanco para el icono */
+    font-size: 50px; /* <-- Tamaño del icono */
+}
+
+.btn-whatsapp:hover {
+    background-color: #1ebe57;
+    transform: scale(1.1);
+}
