@@ -630,3 +630,74 @@ html {
     background-color: #1ebe57;
     transform: scale(1.1);
 }
+
+.portafolio-sueros {
+    padding: 60px 0;
+    background-color: #ffffff;
+}
+
+.sueros-grid-seis {
+    display: grid;
+    /* Esto crea el grid responsivo */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    padding: 0 20px;
+}
+
+.card-item {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    border: 1px solid #eee;
+}
+
+.card-item:hover {
+    transform: translateY(-5px);
+}
+
+.card-img {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Mantiene la proporción de la imagen */
+}
+
+.card-info {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-info h3 {
+    font-size: 1.25rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card-info p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 20px;
+    height: 40px; /* Alinea los textos */
+}
+
+.btn-card {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00bcd4;
+    color: white !important;
+    text-decoration: none !important;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.btn-card:hover {
+    background-color: #008c9e;
+}
