@@ -823,3 +823,17 @@ html {
 .btn-action.delete:hover {
     background-color: #dc2626;
 }
+
+/* Para que el traductor no se vea desalineado */
+.traductor-item {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+#google_translate_element select {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+}

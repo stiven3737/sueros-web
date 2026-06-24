@@ -13,14 +13,18 @@
     <header></header>
 
    <nav>
-        <ul>
-            <li><a href="#inicio">Página De Inicio</a></li>
-            <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
-            <li><a href="#servicios">Servicios</a></li>
-            <li><a href="#testimonios">Testimonios</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-        </ul>
-    </nav>
+    <ul>
+        <li><a href="#inicio">Página De Inicio</a></li>
+        <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#testimonios">Testimonios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        
+        <li class="traductor-item">
+            <div id="google_translate_element"></div>
+        </li>
+    </ul>
+</nav>
 
     <main>
         <section class="hero" id="inicio">
@@ -79,11 +83,11 @@
 
         <section class="portafolio-sueros" id="nuestros-sueros">
             <div class="container">
-                <h2 style="text-align: center;">Nuestros Sueros Specialized</h2>
+                <h2 style="text-align: center;">Nuestros Sueros Especializados</h2>
                 <div class="cyan-line" style="margin: 0 auto 40px auto;"></div>
                 <div class="sueros-grid-seis">
                     <div class="card-item">
-                        <div class="card-img"><img src="img/suero-hidratacion.jpg" alt="Hidratación"></div>
+                        <div class="card-img"><img src="img/img25.jpg" alt="Hidratación"></div>
                         <div class="card-info">
                             <h3>Hidratación Total</h3>
                             <p>Reposición de electrolitos para recuperación física inmediata.</p>
@@ -91,7 +95,7 @@
                         </div>
                     </div>
                     <div class="card-item">
-                        <div class="card-img"><img src="img/suero-vitamina.jpg" alt="Vitamina C"></div>
+                        <div class="card-img"><img src="img/vitaminc.jpg" alt="Vitamina C"></div>
                         <div class="card-info">
                             <h3>Inmuno Vitamina C</h3>
                             <p>Fortalece defensas y mejora la salud de la piel con antioxidantes.</p>
@@ -99,7 +103,7 @@
                         </div>
                     </div>
                     <div class="card-item">
-                        <div class="card-img"><img src="img/suero-detox.jpg" alt="Detox"></div>
+                        <div class="card-img"><img src="img/detox.jpg" alt="Detox"></div>
                         <div class="card-info">
                             <h3>Detox Premium</h3>
                             <p>Limpieza profunda de toxinas para un organismo revitalizado.</p>
@@ -107,7 +111,7 @@
                         </div>
                     </div>
                     <div class="card-item">
-                        <div class="card-img"><img src="img/suero-energia.jpg" alt="Energía"></div>
+                        <div class="card-img"><img src="img/boost.jpg" alt="Energía"></div>
                         <div class="card-info">
                             <h3>Boost de Energía</h3>
                             <p>Complejo B para combatir el cansancio y mejorar el enfoque.</p>
@@ -115,7 +119,7 @@
                         </div>
                     </div>
                     <div class="card-item">
-                        <div class="card-img"><img src="img/suero-belleza.jpg" alt="Belleza"></div>
+                        <div class="card-img"><img src="img/belleza.jpg" alt="Belleza"></div>
                         <div class="card-info">
                             <h3>Belleza & Glow</h3>
                             <p>Nutrientes específicos para un cabello fuerte y piel radiante.</p>
@@ -123,7 +127,7 @@
                         </div>
                     </div>
                     <div class="card-item">
-                        <div class="card-img"><img src="img/suero-resaca.jpg" alt="Recuperación"></div>
+                        <div class="card-img"><img src="img/hangover.jpg" alt="Recuperación"></div>
                         <div class="card-info">
                             <h3>Recuperación SOS</h3>
                             <p>Alivio rápido de síntomas de deshidratación severa y malestar.</p>
@@ -270,5 +274,18 @@
 
     <button id="btnVolverArriba" title="Ir al inicio">↑</button>
     <script src="app.js"></script>
+
+    <div id="google_translate_element"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'es', 
+    includedLanguages: 'en,es', // Solo español e inglés
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+  }, 'google_translate_element');
+}
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>
