@@ -101,6 +101,7 @@ function renderizarTabla() {
 }
 
 // Función para guardar / actualizar un paciente (Formulario)
+/* Aquicomienza todo el bloque que voy a acomentar 
 if (formulario) {
     formulario.addEventListener('submit', function(e) {
         e.preventDefault(); // Evita que la página se recargue o se vaya a Formspree
@@ -160,7 +161,7 @@ window.eliminarPaciente = function(id) {
         localStorage.setItem('pacientesDatos', JSON.stringify(listaPacientes));
         renderizarTabla();
     }
-};
+}; */   
 
 /* ==========================================================
    3. VERIFICACIÓN DE RUTA PRIVADA (?admin=true)

@@ -222,24 +222,26 @@
             <div class="contacto-form-box">
                 <p>Déjanos tus datos y te contactaremos a la brevedad para agendar tu sesión.</p>
                 <form action="https://formspree.io/f/xykllvre" method="POST">
-                    <input type="hidden" name="_next" value="https://https://sueros-web.vercel.app/">
-                    <div class="input-group">
-                        <label for="nombre">Nombre Completo</label>
-                        <input type="text" id="nombre" placeholder="Ej: Juan Pérez" required>
-                    </div>
-                    
-                    <div class="input-group">
-                        <label for="whatsapp">Número de WhatsApp</label>
-                        <input type="tel" id="whatsapp" placeholder="Ej: 3001234567" required>
-                    </div>
+    <!-- Agregamos el atributo name a cada input -->
+    <div class="input-group">
+        <label for="nombre">Nombre Completo</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ej: Juan Pérez" required>
+    </div>
+    
+    <div class="input-group">
+        <label for="whatsapp">Número de WhatsApp</label>
+        <input type="tel" id="whatsapp" name="whatsapp" placeholder="Ej: 3001234567" required>
+    </div>
 
-                    <div class="input-group">
-                        <label for="mensaje">¿En qué servicio estás interesado? (Opcional)</label>
-                        <textarea id="mensaje" rows="3" placeholder="Cuéntanos brevemente..."></textarea>
-                    </div>
+    <div class="input-group">
+        <label for="mensaje">¿En qué servicio estás interesado?</label>
+        <textarea id="mensaje" name="mensaje" rows="3" placeholder="Cuéntanos brevemente..."></textarea>
+    </div>
 
-                    <button type="submit" class="btn-enviar">Enviar Información</button>
-                </form>
+    <input type="hidden" name="_next" value="https://sueros-web.vercel.app/">
+
+    <button type="submit" class="btn-enviar">Enviar Información</button>
+</form>
             </div>
 
         </div>
